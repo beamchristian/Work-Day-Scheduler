@@ -33,7 +33,7 @@ function timeTracker() {
         console.log(timeBlockHour, currentTime)
     
 
-    // check current time and assign css to indicated if time is past, present or future
+    // check current time and assign css to indicated timeblock if time is past, present or future
     if (timeBlockHour < currentTime) {
         $(this).addClass("past");
         $(this).removeClass("future");
@@ -53,6 +53,6 @@ function timeTracker() {
     })
 
 }
-timeTracker();
+timeTracker(); // call timeTracker function
 
 
