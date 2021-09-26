@@ -6,7 +6,7 @@
 **<u>jumbotron</u>** -
 * The title "Work Day Scheduler
 * A short description of the application 
-* A "<p>" element with the current date displayed using moment.js 
+* A "p" element with the current date displayed using moment.js 
 
 **<u>Timeblocks Container</u>** -
 * Div row's with id's for each hour
