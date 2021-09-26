@@ -30,8 +30,6 @@ function timeTracker() {
     // loop over time blocks
     $(".time-block").each(function () {
         let timeBlockHour = parseInt($(this).attr("id").split("hour")[1]);
-        console.log(timeBlockHour, currentTime)
-    
 
     // check current time and assign css to indicated timeblock if time is past, present or future
     if (timeBlockHour < currentTime) {
