@@ -31,8 +31,7 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
@@ -69,3 +68,10 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+
+@media (max-width: 576px) { 
+    .saveBtn {
+       border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+  }
